@@ -1,0 +1,21 @@
+---
+// const title = Astro.props.title;
+// const text = Astro.props.text;
+
+const { title, text } = Astro.props;
+
+---
+          <li>
+            <h3>{title}</h3>
+            <p>
+              {text}
+            </p>
+            <a href="/courses" class="btn" data-variant="primary">Get started</a>
+          </li>
+        
+          
+          <style>
+li {
+    background-color: red;
+}
+          </style>
